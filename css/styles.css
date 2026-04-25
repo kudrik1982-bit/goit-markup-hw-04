@@ -260,7 +260,7 @@ gap: 24px;
  margin-bottom: 8px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  width: 264px;
+  width: 100%;
   height: 112px;
   background: #f4f4fd;
   display: flex;
@@ -472,6 +472,7 @@ padding: 32px 16px;
 }
 .text-info {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
   font-size: 16px;
