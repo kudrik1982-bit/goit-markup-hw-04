@@ -234,8 +234,8 @@ background-color: #404BBF;
 
 }
 
-.social-icons .link:hover,
-.social-icons .link:focus {
+.social-links.social-icons .link:hover,
+ .social-links.social-icons .link:focus {
   background-color:#31D0AA;
 }
  .features-one {
@@ -425,24 +425,12 @@ padding: 32px 16px;
   padding-top: 8px;
    }
 
-.social-icons {
-  display: flex;
-  gap: 16px;
-  
+.social-links .social-icons {
+display: flex;
+gap: 16px;
 
 }
 
- .social-icons .link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #4D5AE5;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
- }
 
 
 .social-links .link {
@@ -488,9 +476,9 @@ padding: 32px 16px;
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
-.portfolio-item:hover .text-info {
-  
- 
+.portfolio-item:hover .text-info, 
+.portfolio-item:focus .text-info,
+ .portfolio-item:focus-within {
     
 transform: translateY(0%);
 
@@ -518,7 +506,7 @@ align-items: baseline;
 }
 
 .footer-info {
-  margin-bottom: 16px;
+  margin-top: 16px;
   
 font-weight: 500;
   font-size: 16px;
